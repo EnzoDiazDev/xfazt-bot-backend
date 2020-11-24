@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "cross-env NODE_ENV=development ts-node ./src/Main.ts",
-    "faketest": "node ./__test__/test.js"
+    "faketest": "node ./__test__/test.js",
+    "start": "node ./dist/Main.js"
   },
   "repository": {
     "type": "git",
